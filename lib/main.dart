@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         '/': (BuildContext context) => HomePage(),
         'detalle': (BuildContext context) => PeliculaDetalle(),
       },
+      theme: ThemeData.dark(),
     );
   }
 }
